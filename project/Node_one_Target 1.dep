@@ -1,0 +1,67 @@
+Dependencies for Project 'Node_one', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x5FF46B2C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\Library\inc -I..\Library\src-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C80BA4)
+I (..\Library\inc\clk.h)(0x577E620E)
+I (..\Library\inc\common.h)(0x57EFA778)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (..\Library\inc\usart.h)(0x5C1C1903)
+I (..\Library\inc\gpio.h)(0x5821E19A)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C80BA4)
+I (..\Library\inc\dma.h)(0x577B7C24)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C80BA4)
+I (..\Library\inc\nvic.h)(0x577AB70C)
+I (..\Library\inc\i2c.h)(0x5814C2E6)
+F (C:\Keil\ARM\Startup\ST\STM32F10x\startup_stm32f10x_cl.s)(0x5209FB9E)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x--list .\startup_stm32f10x_cl.lst --xref -o .\startup_stm32f10x_cl.o --depend .\startup_stm32f10x_cl.d)
+F (..\Library\src\can.c)(0x57AEFB36)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\Library\inc -I..\Library\src-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\can.o --omf_browse .\can.crf --depend .\can.d)
+I (..\Library\inc\can.h)(0x577E97A4)
+I (..\Library\inc\common.h)(0x57EFA778)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (..\Library\inc\gpio.h)(0x5821E19A)
+F (..\Library\src\dma.c)(0x577ACAB6)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\Library\inc -I..\Library\src-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\dma.o --omf_browse .\dma.crf --depend .\dma.d)
+I (..\Library\inc\dma.h)(0x577B7C24)
+I (..\Library\inc\common.h)(0x57EFA778)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+F (..\Library\src\extention.c)(0x583C0392)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\Library\inc -I..\Library\src-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\extention.o --omf_browse .\extention.crf --depend .\extention.d)
+I (..\Library\inc\i2c.h)(0x5814C2E6)
+I (..\Library\inc\common.h)(0x57EFA778)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (..\Library\inc\gpio.h)(0x5821E19A)
+F (..\Library\src\extint.c)(0x577ADB94)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\Library\inc -I..\Library\src-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\extint.o --omf_browse .\extint.crf --depend .\extint.d)
+I (..\Library\inc\extint.h)(0x577AB70C)
+I (..\Library\inc\common.h)(0x57EFA778)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+F (..\Library\src\gpio.c)(0x582C376E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\Library\inc -I..\Library\src-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (..\Library\inc\gpio.h)(0x5821E19A)
+I (..\Library\inc\common.h)(0x57EFA778)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+F (..\Library\src\i2c.c)(0x5B7A8AC8)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\Library\inc -I..\Library\src-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\i2c.o --omf_browse .\i2c.crf --depend .\i2c.d)
+I (..\Library\inc\i2c.h)(0x5814C2E6)
+I (..\Library\inc\common.h)(0x57EFA778)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (..\Library\inc\gpio.h)(0x5821E19A)
+F (..\Library\src\myspi.c)(0x5B7A8AAC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\Library\inc -I..\Library\src-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\myspi.o --omf_browse .\myspi.crf --depend .\myspi.d)
+I (..\Library\inc\myspi.h)(0x583C2340)
+I (..\Library\inc\common.h)(0x57EFA778)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (..\Library\inc\gpio.h)(0x5821E19A)
+I (..\Library\inc\dma.h)(0x577B7C24)
+I (..\Library\inc\nvic.h)(0x577AB70C)
+F (..\Library\src\nvic.c)(0x57704DF2)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\Library\inc -I..\Library\src-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\nvic.o --omf_browse .\nvic.crf --depend .\nvic.d)
+I (..\Library\inc\nvic.h)(0x577AB70C)
+I (..\Library\inc\common.h)(0x57EFA778)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+F (..\Library\src\timer.c)(0x583BF73C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\Library\inc -I..\Library\src-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
+I (..\Library\inc\timer.h)(0x57E94512)
+I (..\Library\inc\common.h)(0x57EFA778)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+F (..\Library\src\usart.c)(0x5C1C2380)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\Library\inc -I..\Library\src-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\usart.o --omf_browse .\usart.crf --depend .\usart.d)
+I (..\Library\inc\usart.h)(0x5C1C1903)
+I (..\Library\inc\common.h)(0x57EFA778)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (..\Library\inc\gpio.h)(0x5821E19A)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C80BA4)
+I (..\Library\inc\dma.h)(0x577B7C24)
+F (..\Library\src\watchdog.c)(0x577ADC6E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\Library\inc -I..\Library\src-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\watchdog.o --omf_browse .\watchdog.crf --depend .\watchdog.d)
+I (..\Library\inc\watchdog.h)(0x577AB70C)
+I (..\Library\inc\common.h)(0x57EFA778)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)

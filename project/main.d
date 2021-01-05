@@ -1,0 +1,12 @@
+.\main.o: main.c
+.\main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\main.o: ..\Library\inc\clk.h
+.\main.o: ..\Library\inc\common.h
+.\main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\main.o: ..\Library\inc\usart.h
+.\main.o: ..\Library\inc\gpio.h
+.\main.o: C:\Keil\ARM\ARMCC\bin\..\include\math.h
+.\main.o: ..\Library\inc\dma.h
+.\main.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\main.o: ..\Library\inc\nvic.h
+.\main.o: ..\Library\inc\i2c.h
